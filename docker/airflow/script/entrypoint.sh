@@ -10,7 +10,7 @@ TRY_LOOP="20"
 : "${POSTGRES_PORT:="5432"}"
 : "${POSTGRES_USER:="airflow"}"
 : "${POSTGRES_PASSWORD:="airflow"}"
-: "${POSTGRES_DB:="airflow_db"}"
+: "${POSTGRES_DB:="airflow"}"
 
 # Defaults and back-compat
 : "${AIRFLOW_HOME:="/usr/local/airflow"}"
@@ -27,7 +27,7 @@ export \
   AIRFLOW__CORE__SQL_ALCHEMY_CONN \
 
 
-# Load DAGs examples (default: Yes)
+# Load DAGs exemples (default: Yes)
 if [[ -z "$AIRFLOW__CORE__LOAD_EXAMPLES" && "${LOAD_EX:=n}" == n ]]
 then
   AIRFLOW__CORE__LOAD_EXAMPLES=False
@@ -71,7 +71,8 @@ fi
 
 case "$1" in
   webserver)
-    airflow initdb
+    airflow db init
+    airflow users create -e "admin@airflow.com" -f "airflow" -l "airflow" -p "airflow" -r "Admin" -u "airflow"
     if [ "$AIRFLOW__CORE__EXECUTOR" = "LocalExecutor" ] || [ "$AIRFLOW__CORE__EXECUTOR" = "SequentialExecutor" ]; then
       # With the "Local" and "Sequential" executors it should all run in one container.
       airflow scheduler &
@@ -79,7 +80,7 @@ case "$1" in
     exec airflow webserver
     ;;
   worker|scheduler)
-    # Give the webserver time to run initdb.
+    # To give the webserver time to run initdb.
     sleep 10
     exec airflow "$@"
     ;;
