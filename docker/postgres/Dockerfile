@@ -1,4 +1,4 @@
-FROM postgres:11.4-alpine
+FROM postgres:13.1
 
 COPY init-hive-db.sh /docker-entrypoint-initdb.d/init-hive-db.sh
 

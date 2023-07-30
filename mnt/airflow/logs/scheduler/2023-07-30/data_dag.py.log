@@ -1,0 +1,906 @@
+[2023-07-30 11:39:58,388] {logging_mixin.py:112} INFO - [2023-07-30 11:39:58,388] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=28
+[2023-07-30 11:39:58,402] {scheduler_job.py:153} INFO - Started process (PID=28) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:58,411] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:39:58,413] {logging_mixin.py:112} INFO - [2023-07-30 11:39:58,413] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:58,441] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:58,518] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.116 seconds
+[2023-07-30 11:39:59,339] {logging_mixin.py:112} INFO - [2023-07-30 11:39:59,339] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=30
+[2023-07-30 11:39:59,355] {scheduler_job.py:153} INFO - Started process (PID=30) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:59,368] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:39:59,369] {logging_mixin.py:112} INFO - [2023-07-30 11:39:59,369] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:59,405] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:39:59,469] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.115 seconds
+[2023-07-30 11:40:00,352] {logging_mixin.py:112} INFO - [2023-07-30 11:40:00,352] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=32
+[2023-07-30 11:40:00,369] {scheduler_job.py:153} INFO - Started process (PID=32) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:00,386] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:00,388] {logging_mixin.py:112} INFO - [2023-07-30 11:40:00,387] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:00,420] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:00,687] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.317 seconds
+[2023-07-30 11:40:01,384] {logging_mixin.py:112} INFO - [2023-07-30 11:40:01,383] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=34
+[2023-07-30 11:40:01,399] {scheduler_job.py:153} INFO - Started process (PID=34) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:01,409] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:01,411] {logging_mixin.py:112} INFO - [2023-07-30 11:40:01,411] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:01,443] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:01,504] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.104 seconds
+[2023-07-30 11:40:02,396] {logging_mixin.py:112} INFO - [2023-07-30 11:40:02,396] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=36
+[2023-07-30 11:40:02,412] {scheduler_job.py:153} INFO - Started process (PID=36) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:02,424] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:02,426] {logging_mixin.py:112} INFO - [2023-07-30 11:40:02,426] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:02,454] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:02,514] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.102 seconds
+[2023-07-30 11:40:03,411] {logging_mixin.py:112} INFO - [2023-07-30 11:40:03,411] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=38
+[2023-07-30 11:40:03,417] {scheduler_job.py:153} INFO - Started process (PID=38) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:03,421] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:03,422] {logging_mixin.py:112} INFO - [2023-07-30 11:40:03,422] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:03,446] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:03,473] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.056 seconds
+[2023-07-30 11:40:04,424] {logging_mixin.py:112} INFO - [2023-07-30 11:40:04,424] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=40
+[2023-07-30 11:40:04,427] {scheduler_job.py:153} INFO - Started process (PID=40) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:04,429] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:04,429] {logging_mixin.py:112} INFO - [2023-07-30 11:40:04,429] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:04,443] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:04,493] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.066 seconds
+[2023-07-30 11:40:05,433] {logging_mixin.py:112} INFO - [2023-07-30 11:40:05,433] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=42
+[2023-07-30 11:40:05,435] {scheduler_job.py:153} INFO - Started process (PID=42) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:05,437] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:05,437] {logging_mixin.py:112} INFO - [2023-07-30 11:40:05,437] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:05,452] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:05,475] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:06,439] {logging_mixin.py:112} INFO - [2023-07-30 11:40:06,439] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=44
+[2023-07-30 11:40:06,441] {scheduler_job.py:153} INFO - Started process (PID=44) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:06,443] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:06,444] {logging_mixin.py:112} INFO - [2023-07-30 11:40:06,444] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:06,458] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:06,483] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 11:40:07,448] {logging_mixin.py:112} INFO - [2023-07-30 11:40:07,447] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=46
+[2023-07-30 11:40:07,450] {scheduler_job.py:153} INFO - Started process (PID=46) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:07,452] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:07,452] {logging_mixin.py:112} INFO - [2023-07-30 11:40:07,452] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:07,467] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:07,489] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:08,460] {logging_mixin.py:112} INFO - [2023-07-30 11:40:08,460] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=48
+[2023-07-30 11:40:08,462] {scheduler_job.py:153} INFO - Started process (PID=48) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:08,465] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:08,465] {logging_mixin.py:112} INFO - [2023-07-30 11:40:08,465] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:08,479] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:08,502] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:09,467] {logging_mixin.py:112} INFO - [2023-07-30 11:40:09,467] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=50
+[2023-07-30 11:40:09,469] {scheduler_job.py:153} INFO - Started process (PID=50) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:09,471] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:09,472] {logging_mixin.py:112} INFO - [2023-07-30 11:40:09,472] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:09,487] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:09,511] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:10,474] {logging_mixin.py:112} INFO - [2023-07-30 11:40:10,474] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=52
+[2023-07-30 11:40:10,476] {scheduler_job.py:153} INFO - Started process (PID=52) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:10,478] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:10,479] {logging_mixin.py:112} INFO - [2023-07-30 11:40:10,479] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:10,494] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:10,517] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:11,484] {logging_mixin.py:112} INFO - [2023-07-30 11:40:11,483] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=54
+[2023-07-30 11:40:11,486] {scheduler_job.py:153} INFO - Started process (PID=54) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:11,489] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:11,489] {logging_mixin.py:112} INFO - [2023-07-30 11:40:11,489] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:11,505] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:11,539] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.053 seconds
+[2023-07-30 11:40:12,490] {logging_mixin.py:112} INFO - [2023-07-30 11:40:12,490] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=56
+[2023-07-30 11:40:12,492] {scheduler_job.py:153} INFO - Started process (PID=56) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:12,494] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:12,495] {logging_mixin.py:112} INFO - [2023-07-30 11:40:12,495] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:12,510] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:12,532] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 11:40:13,497] {logging_mixin.py:112} INFO - [2023-07-30 11:40:13,497] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=58
+[2023-07-30 11:40:13,499] {scheduler_job.py:153} INFO - Started process (PID=58) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:13,501] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:13,502] {logging_mixin.py:112} INFO - [2023-07-30 11:40:13,501] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:13,516] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:13,540] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:14,504] {logging_mixin.py:112} INFO - [2023-07-30 11:40:14,504] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=60
+[2023-07-30 11:40:14,506] {scheduler_job.py:153} INFO - Started process (PID=60) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:14,508] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:14,509] {logging_mixin.py:112} INFO - [2023-07-30 11:40:14,508] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:14,523] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:14,544] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 11:40:15,511] {logging_mixin.py:112} INFO - [2023-07-30 11:40:15,511] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=62
+[2023-07-30 11:40:15,513] {scheduler_job.py:153} INFO - Started process (PID=62) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:15,516] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:15,516] {logging_mixin.py:112} INFO - [2023-07-30 11:40:15,516] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:15,530] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:15,560] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.046 seconds
+[2023-07-30 11:40:16,519] {logging_mixin.py:112} INFO - [2023-07-30 11:40:16,519] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=64
+[2023-07-30 11:40:16,521] {scheduler_job.py:153} INFO - Started process (PID=64) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:16,523] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:16,523] {logging_mixin.py:112} INFO - [2023-07-30 11:40:16,523] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:16,539] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:16,564] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.043 seconds
+[2023-07-30 11:40:17,525] {logging_mixin.py:112} INFO - [2023-07-30 11:40:17,525] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=66
+[2023-07-30 11:40:17,527] {scheduler_job.py:153} INFO - Started process (PID=66) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:17,529] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:17,529] {logging_mixin.py:112} INFO - [2023-07-30 11:40:17,529] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:17,543] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:17,566] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 11:40:18,536] {logging_mixin.py:112} INFO - [2023-07-30 11:40:18,535] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=68
+[2023-07-30 11:40:18,538] {scheduler_job.py:153} INFO - Started process (PID=68) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:18,540] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:18,540] {logging_mixin.py:112} INFO - [2023-07-30 11:40:18,540] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:18,555] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:18,579] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:19,542] {logging_mixin.py:112} INFO - [2023-07-30 11:40:19,542] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=70
+[2023-07-30 11:40:19,544] {scheduler_job.py:153} INFO - Started process (PID=70) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:19,547] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:19,547] {logging_mixin.py:112} INFO - [2023-07-30 11:40:19,547] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:19,561] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:19,585] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:20,550] {logging_mixin.py:112} INFO - [2023-07-30 11:40:20,550] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=72
+[2023-07-30 11:40:20,552] {scheduler_job.py:153} INFO - Started process (PID=72) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:20,554] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:20,554] {logging_mixin.py:112} INFO - [2023-07-30 11:40:20,554] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:20,569] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:20,597] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.045 seconds
+[2023-07-30 11:40:21,556] {logging_mixin.py:112} INFO - [2023-07-30 11:40:21,556] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=74
+[2023-07-30 11:40:21,558] {scheduler_job.py:153} INFO - Started process (PID=74) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:21,560] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:21,560] {logging_mixin.py:112} INFO - [2023-07-30 11:40:21,560] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:21,575] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:21,599] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:22,564] {logging_mixin.py:112} INFO - [2023-07-30 11:40:22,564] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=76
+[2023-07-30 11:40:22,566] {scheduler_job.py:153} INFO - Started process (PID=76) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:22,569] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:22,570] {logging_mixin.py:112} INFO - [2023-07-30 11:40:22,570] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:22,612] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:22,682] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.116 seconds
+[2023-07-30 11:40:23,591] {logging_mixin.py:112} INFO - [2023-07-30 11:40:23,591] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=78
+[2023-07-30 11:40:23,594] {scheduler_job.py:153} INFO - Started process (PID=78) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:23,614] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:23,617] {logging_mixin.py:112} INFO - [2023-07-30 11:40:23,617] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:23,649] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:23,722] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.129 seconds
+[2023-07-30 11:40:24,597] {logging_mixin.py:112} INFO - [2023-07-30 11:40:24,596] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=80
+[2023-07-30 11:40:24,600] {scheduler_job.py:153} INFO - Started process (PID=80) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:24,602] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:24,602] {logging_mixin.py:112} INFO - [2023-07-30 11:40:24,602] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:24,626] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:24,656] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.057 seconds
+[2023-07-30 11:40:25,608] {logging_mixin.py:112} INFO - [2023-07-30 11:40:25,607] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=82
+[2023-07-30 11:40:25,610] {scheduler_job.py:153} INFO - Started process (PID=82) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:25,612] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:25,612] {logging_mixin.py:112} INFO - [2023-07-30 11:40:25,612] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:25,627] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:25,655] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.046 seconds
+[2023-07-30 11:40:26,615] {logging_mixin.py:112} INFO - [2023-07-30 11:40:26,615] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=84
+[2023-07-30 11:40:26,617] {scheduler_job.py:153} INFO - Started process (PID=84) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:26,619] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:26,620] {logging_mixin.py:112} INFO - [2023-07-30 11:40:26,620] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:26,636] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:26,659] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:27,623] {logging_mixin.py:112} INFO - [2023-07-30 11:40:27,623] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=86
+[2023-07-30 11:40:27,625] {scheduler_job.py:153} INFO - Started process (PID=86) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:27,627] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:27,627] {logging_mixin.py:112} INFO - [2023-07-30 11:40:27,627] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:27,642] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:27,667] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 11:40:28,637] {logging_mixin.py:112} INFO - [2023-07-30 11:40:28,637] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=88
+[2023-07-30 11:40:28,639] {scheduler_job.py:153} INFO - Started process (PID=88) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:28,642] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:28,642] {logging_mixin.py:112} INFO - [2023-07-30 11:40:28,642] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:28,656] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:28,684] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 11:40:29,645] {logging_mixin.py:112} INFO - [2023-07-30 11:40:29,644] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=90
+[2023-07-30 11:40:29,647] {scheduler_job.py:153} INFO - Started process (PID=90) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:29,649] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:29,649] {logging_mixin.py:112} INFO - [2023-07-30 11:40:29,649] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:29,664] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:29,684] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 11:40:30,652] {logging_mixin.py:112} INFO - [2023-07-30 11:40:30,652] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=92
+[2023-07-30 11:40:30,654] {scheduler_job.py:153} INFO - Started process (PID=92) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:30,656] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:30,656] {logging_mixin.py:112} INFO - [2023-07-30 11:40:30,656] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:30,671] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:30,693] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 11:40:31,661] {logging_mixin.py:112} INFO - [2023-07-30 11:40:31,661] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=94
+[2023-07-30 11:40:31,664] {scheduler_job.py:153} INFO - Started process (PID=94) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:31,666] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:31,667] {logging_mixin.py:112} INFO - [2023-07-30 11:40:31,667] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:31,684] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:31,728] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.065 seconds
+[2023-07-30 11:40:32,669] {logging_mixin.py:112} INFO - [2023-07-30 11:40:32,669] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=96
+[2023-07-30 11:40:32,671] {scheduler_job.py:153} INFO - Started process (PID=96) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:32,673] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:32,674] {logging_mixin.py:112} INFO - [2023-07-30 11:40:32,674] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:32,691] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:32,714] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.043 seconds
+[2023-07-30 11:40:33,675] {logging_mixin.py:112} INFO - [2023-07-30 11:40:33,675] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=98
+[2023-07-30 11:40:33,677] {scheduler_job.py:153} INFO - Started process (PID=98) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:33,679] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:33,680] {logging_mixin.py:112} INFO - [2023-07-30 11:40:33,680] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:33,694] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:33,717] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:34,682] {logging_mixin.py:112} INFO - [2023-07-30 11:40:34,682] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=100
+[2023-07-30 11:40:34,684] {scheduler_job.py:153} INFO - Started process (PID=100) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:34,686] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:34,687] {logging_mixin.py:112} INFO - [2023-07-30 11:40:34,687] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:34,701] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:34,727] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 11:40:35,689] {logging_mixin.py:112} INFO - [2023-07-30 11:40:35,689] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=102
+[2023-07-30 11:40:35,691] {scheduler_job.py:153} INFO - Started process (PID=102) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:35,693] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:35,694] {logging_mixin.py:112} INFO - [2023-07-30 11:40:35,694] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:35,709] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:35,731] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:36,697] {logging_mixin.py:112} INFO - [2023-07-30 11:40:36,697] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=104
+[2023-07-30 11:40:36,699] {scheduler_job.py:153} INFO - Started process (PID=104) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:36,701] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:36,702] {logging_mixin.py:112} INFO - [2023-07-30 11:40:36,702] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:36,715] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:36,740] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:37,705] {logging_mixin.py:112} INFO - [2023-07-30 11:40:37,705] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=106
+[2023-07-30 11:40:37,707] {scheduler_job.py:153} INFO - Started process (PID=106) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:37,710] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:37,710] {logging_mixin.py:112} INFO - [2023-07-30 11:40:37,710] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:37,726] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:37,749] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 11:40:38,717] {logging_mixin.py:112} INFO - [2023-07-30 11:40:38,717] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=108
+[2023-07-30 11:40:38,719] {scheduler_job.py:153} INFO - Started process (PID=108) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:38,722] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:38,722] {logging_mixin.py:112} INFO - [2023-07-30 11:40:38,722] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:38,738] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:38,765] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.045 seconds
+[2023-07-30 11:40:39,722] {logging_mixin.py:112} INFO - [2023-07-30 11:40:39,722] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=110
+[2023-07-30 11:40:39,725] {scheduler_job.py:153} INFO - Started process (PID=110) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:39,727] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:39,727] {logging_mixin.py:112} INFO - [2023-07-30 11:40:39,727] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:39,743] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:39,766] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 11:40:40,732] {logging_mixin.py:112} INFO - [2023-07-30 11:40:40,732] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=112
+[2023-07-30 11:40:40,734] {scheduler_job.py:153} INFO - Started process (PID=112) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:40,737] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:40,737] {logging_mixin.py:112} INFO - [2023-07-30 11:40:40,737] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:40,751] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:40,770] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.036 seconds
+[2023-07-30 11:40:41,742] {logging_mixin.py:112} INFO - [2023-07-30 11:40:41,742] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=114
+[2023-07-30 11:40:41,745] {scheduler_job.py:153} INFO - Started process (PID=114) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:41,748] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:41,748] {logging_mixin.py:112} INFO - [2023-07-30 11:40:41,748] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:41,767] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:41,794] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.049 seconds
+[2023-07-30 11:40:42,747] {logging_mixin.py:112} INFO - [2023-07-30 11:40:42,747] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=116
+[2023-07-30 11:40:42,749] {scheduler_job.py:153} INFO - Started process (PID=116) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:42,752] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:42,752] {logging_mixin.py:112} INFO - [2023-07-30 11:40:42,752] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:42,767] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:42,790] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 11:40:43,754] {logging_mixin.py:112} INFO - [2023-07-30 11:40:43,754] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=118
+[2023-07-30 11:40:43,756] {scheduler_job.py:153} INFO - Started process (PID=118) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:43,758] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:43,759] {logging_mixin.py:112} INFO - [2023-07-30 11:40:43,759] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:43,774] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:43,796] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:44,763] {logging_mixin.py:112} INFO - [2023-07-30 11:40:44,763] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=120
+[2023-07-30 11:40:44,765] {scheduler_job.py:153} INFO - Started process (PID=120) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:44,768] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:44,769] {logging_mixin.py:112} INFO - [2023-07-30 11:40:44,769] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:44,788] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:44,833] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.068 seconds
+[2023-07-30 11:40:45,769] {logging_mixin.py:112} INFO - [2023-07-30 11:40:45,769] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=122
+[2023-07-30 11:40:45,772] {scheduler_job.py:153} INFO - Started process (PID=122) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:45,774] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:45,774] {logging_mixin.py:112} INFO - [2023-07-30 11:40:45,774] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:45,790] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:45,811] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:46,777] {logging_mixin.py:112} INFO - [2023-07-30 11:40:46,776] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=124
+[2023-07-30 11:40:46,779] {scheduler_job.py:153} INFO - Started process (PID=124) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:46,781] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:46,781] {logging_mixin.py:112} INFO - [2023-07-30 11:40:46,781] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:46,797] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:46,819] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 11:40:47,784] {logging_mixin.py:112} INFO - [2023-07-30 11:40:47,784] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=126
+[2023-07-30 11:40:47,786] {scheduler_job.py:153} INFO - Started process (PID=126) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:47,788] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:47,789] {logging_mixin.py:112} INFO - [2023-07-30 11:40:47,789] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:47,803] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:47,824] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 11:40:48,795] {logging_mixin.py:112} INFO - [2023-07-30 11:40:48,794] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=128
+[2023-07-30 11:40:48,797] {scheduler_job.py:153} INFO - Started process (PID=128) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:48,799] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 11:40:48,799] {logging_mixin.py:112} INFO - [2023-07-30 11:40:48,799] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:48,813] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 11:40:48,834] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:07,407] {logging_mixin.py:112} INFO - [2023-07-30 12:09:07,406] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=130
+[2023-07-30 12:09:07,411] {scheduler_job.py:153} INFO - Started process (PID=130) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:07,416] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:07,418] {logging_mixin.py:112} INFO - [2023-07-30 12:09:07,418] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:07,559] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:07,798] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.387 seconds
+[2023-07-30 12:09:08,331] {logging_mixin.py:112} INFO - [2023-07-30 12:09:08,331] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=132
+[2023-07-30 12:09:08,334] {scheduler_job.py:153} INFO - Started process (PID=132) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:08,348] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:08,349] {logging_mixin.py:112} INFO - [2023-07-30 12:09:08,349] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:08,395] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:08,532] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.198 seconds
+[2023-07-30 12:09:09,455] {logging_mixin.py:112} INFO - [2023-07-30 12:09:09,454] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=134
+[2023-07-30 12:09:09,491] {scheduler_job.py:153} INFO - Started process (PID=134) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:09,508] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:09,514] {logging_mixin.py:112} INFO - [2023-07-30 12:09:09,514] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:09,611] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:09,710] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.220 seconds
+[2023-07-30 12:09:10,421] {logging_mixin.py:112} INFO - [2023-07-30 12:09:10,421] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=136
+[2023-07-30 12:09:10,424] {scheduler_job.py:153} INFO - Started process (PID=136) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:10,427] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:10,428] {logging_mixin.py:112} INFO - [2023-07-30 12:09:10,428] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:10,456] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:10,492] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.068 seconds
+[2023-07-30 12:09:11,424] {logging_mixin.py:112} INFO - [2023-07-30 12:09:11,424] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=138
+[2023-07-30 12:09:11,427] {scheduler_job.py:153} INFO - Started process (PID=138) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:11,429] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:11,429] {logging_mixin.py:112} INFO - [2023-07-30 12:09:11,429] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:11,443] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:11,467] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:12,434] {logging_mixin.py:112} INFO - [2023-07-30 12:09:12,433] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=140
+[2023-07-30 12:09:12,436] {scheduler_job.py:153} INFO - Started process (PID=140) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:12,439] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:12,439] {logging_mixin.py:112} INFO - [2023-07-30 12:09:12,439] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:12,454] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:12,476] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:13,438] {logging_mixin.py:112} INFO - [2023-07-30 12:09:13,438] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=142
+[2023-07-30 12:09:13,440] {scheduler_job.py:153} INFO - Started process (PID=142) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:13,443] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:13,443] {logging_mixin.py:112} INFO - [2023-07-30 12:09:13,443] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:13,457] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:13,479] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:14,445] {logging_mixin.py:112} INFO - [2023-07-30 12:09:14,445] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=144
+[2023-07-30 12:09:14,447] {scheduler_job.py:153} INFO - Started process (PID=144) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:14,450] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:14,450] {logging_mixin.py:112} INFO - [2023-07-30 12:09:14,450] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:14,464] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:14,486] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:15,459] {logging_mixin.py:112} INFO - [2023-07-30 12:09:15,457] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=146
+[2023-07-30 12:09:15,462] {scheduler_job.py:153} INFO - Started process (PID=146) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:15,465] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:15,465] {logging_mixin.py:112} INFO - [2023-07-30 12:09:15,465] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:15,486] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:15,514] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.052 seconds
+[2023-07-30 12:09:16,463] {logging_mixin.py:112} INFO - [2023-07-30 12:09:16,463] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=148
+[2023-07-30 12:09:16,465] {scheduler_job.py:153} INFO - Started process (PID=148) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:16,468] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:16,468] {logging_mixin.py:112} INFO - [2023-07-30 12:09:16,468] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:16,483] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:16,505] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:17,491] {logging_mixin.py:112} INFO - [2023-07-30 12:09:17,491] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=150
+[2023-07-30 12:09:17,493] {scheduler_job.py:153} INFO - Started process (PID=150) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:17,496] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:17,497] {logging_mixin.py:112} INFO - [2023-07-30 12:09:17,496] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:17,512] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:17,531] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:18,501] {logging_mixin.py:112} INFO - [2023-07-30 12:09:18,500] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=152
+[2023-07-30 12:09:18,503] {scheduler_job.py:153} INFO - Started process (PID=152) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:18,505] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:18,506] {logging_mixin.py:112} INFO - [2023-07-30 12:09:18,505] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:18,520] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:18,542] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:19,508] {logging_mixin.py:112} INFO - [2023-07-30 12:09:19,508] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=154
+[2023-07-30 12:09:19,510] {scheduler_job.py:153} INFO - Started process (PID=154) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:19,513] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:19,513] {logging_mixin.py:112} INFO - [2023-07-30 12:09:19,513] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:19,528] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:19,551] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:20,517] {logging_mixin.py:112} INFO - [2023-07-30 12:09:20,516] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=156
+[2023-07-30 12:09:20,519] {scheduler_job.py:153} INFO - Started process (PID=156) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:20,523] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:20,523] {logging_mixin.py:112} INFO - [2023-07-30 12:09:20,523] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:20,542] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:20,578] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.059 seconds
+[2023-07-30 12:09:21,525] {logging_mixin.py:112} INFO - [2023-07-30 12:09:21,525] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=158
+[2023-07-30 12:09:21,528] {scheduler_job.py:153} INFO - Started process (PID=158) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:21,531] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:21,532] {logging_mixin.py:112} INFO - [2023-07-30 12:09:21,532] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:21,548] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:21,575] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.047 seconds
+[2023-07-30 12:09:22,531] {logging_mixin.py:112} INFO - [2023-07-30 12:09:22,531] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=160
+[2023-07-30 12:09:22,533] {scheduler_job.py:153} INFO - Started process (PID=160) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:22,536] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:22,536] {logging_mixin.py:112} INFO - [2023-07-30 12:09:22,536] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:22,555] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:22,580] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.046 seconds
+[2023-07-30 12:09:23,538] {logging_mixin.py:112} INFO - [2023-07-30 12:09:23,538] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=162
+[2023-07-30 12:09:23,540] {scheduler_job.py:153} INFO - Started process (PID=162) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:23,543] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:23,543] {logging_mixin.py:112} INFO - [2023-07-30 12:09:23,543] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:23,558] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:23,584] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:09:24,545] {logging_mixin.py:112} INFO - [2023-07-30 12:09:24,545] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=164
+[2023-07-30 12:09:24,548] {scheduler_job.py:153} INFO - Started process (PID=164) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:24,550] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:24,551] {logging_mixin.py:112} INFO - [2023-07-30 12:09:24,551] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:24,565] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:24,615] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.068 seconds
+[2023-07-30 12:09:25,553] {logging_mixin.py:112} INFO - [2023-07-30 12:09:25,553] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=166
+[2023-07-30 12:09:25,556] {scheduler_job.py:153} INFO - Started process (PID=166) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:25,558] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:25,559] {logging_mixin.py:112} INFO - [2023-07-30 12:09:25,558] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:25,574] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:25,601] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.046 seconds
+[2023-07-30 12:09:26,559] {logging_mixin.py:112} INFO - [2023-07-30 12:09:26,559] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=168
+[2023-07-30 12:09:26,561] {scheduler_job.py:153} INFO - Started process (PID=168) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:26,564] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:26,565] {logging_mixin.py:112} INFO - [2023-07-30 12:09:26,565] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:26,579] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:26,605] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.043 seconds
+[2023-07-30 12:09:27,570] {logging_mixin.py:112} INFO - [2023-07-30 12:09:27,569] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=170
+[2023-07-30 12:09:27,572] {scheduler_job.py:153} INFO - Started process (PID=170) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:27,574] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:27,575] {logging_mixin.py:112} INFO - [2023-07-30 12:09:27,575] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:27,592] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:27,614] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:09:28,580] {logging_mixin.py:112} INFO - [2023-07-30 12:09:28,579] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=172
+[2023-07-30 12:09:28,582] {scheduler_job.py:153} INFO - Started process (PID=172) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:28,585] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:28,586] {logging_mixin.py:112} INFO - [2023-07-30 12:09:28,586] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:28,601] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:28,631] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.049 seconds
+[2023-07-30 12:09:29,587] {logging_mixin.py:112} INFO - [2023-07-30 12:09:29,587] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=174
+[2023-07-30 12:09:29,590] {scheduler_job.py:153} INFO - Started process (PID=174) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:29,592] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:29,593] {logging_mixin.py:112} INFO - [2023-07-30 12:09:29,593] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:29,609] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:29,630] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:30,593] {logging_mixin.py:112} INFO - [2023-07-30 12:09:30,593] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=176
+[2023-07-30 12:09:30,595] {scheduler_job.py:153} INFO - Started process (PID=176) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:30,598] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:30,599] {logging_mixin.py:112} INFO - [2023-07-30 12:09:30,598] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:30,613] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:30,639] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:09:31,602] {logging_mixin.py:112} INFO - [2023-07-30 12:09:31,602] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=178
+[2023-07-30 12:09:31,604] {scheduler_job.py:153} INFO - Started process (PID=178) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:31,606] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:31,607] {logging_mixin.py:112} INFO - [2023-07-30 12:09:31,607] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:31,622] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:31,642] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:32,609] {logging_mixin.py:112} INFO - [2023-07-30 12:09:32,609] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=180
+[2023-07-30 12:09:32,611] {scheduler_job.py:153} INFO - Started process (PID=180) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:32,614] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:32,614] {logging_mixin.py:112} INFO - [2023-07-30 12:09:32,614] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:32,628] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:32,649] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:33,616] {logging_mixin.py:112} INFO - [2023-07-30 12:09:33,616] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=182
+[2023-07-30 12:09:33,618] {scheduler_job.py:153} INFO - Started process (PID=182) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:33,620] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:33,621] {logging_mixin.py:112} INFO - [2023-07-30 12:09:33,621] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:33,635] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:33,656] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:09:34,624] {logging_mixin.py:112} INFO - [2023-07-30 12:09:34,624] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=184
+[2023-07-30 12:09:34,627] {scheduler_job.py:153} INFO - Started process (PID=184) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:34,629] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:34,629] {logging_mixin.py:112} INFO - [2023-07-30 12:09:34,629] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:34,645] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:34,667] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:09:35,631] {logging_mixin.py:112} INFO - [2023-07-30 12:09:35,630] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=186
+[2023-07-30 12:09:35,633] {scheduler_job.py:153} INFO - Started process (PID=186) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:35,636] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:35,637] {logging_mixin.py:112} INFO - [2023-07-30 12:09:35,637] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:35,654] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:35,676] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.043 seconds
+[2023-07-30 12:09:36,638] {logging_mixin.py:112} INFO - [2023-07-30 12:09:36,637] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=188
+[2023-07-30 12:09:36,640] {scheduler_job.py:153} INFO - Started process (PID=188) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:36,642] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:36,642] {logging_mixin.py:112} INFO - [2023-07-30 12:09:36,642] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:36,657] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:36,678] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:37,679] {logging_mixin.py:112} INFO - [2023-07-30 12:09:37,679] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=190
+[2023-07-30 12:09:37,682] {scheduler_job.py:153} INFO - Started process (PID=190) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:37,685] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:37,685] {logging_mixin.py:112} INFO - [2023-07-30 12:09:37,685] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:37,703] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:37,726] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:09:38,690] {logging_mixin.py:112} INFO - [2023-07-30 12:09:38,690] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=192
+[2023-07-30 12:09:38,693] {scheduler_job.py:153} INFO - Started process (PID=192) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:38,695] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:38,696] {logging_mixin.py:112} INFO - [2023-07-30 12:09:38,696] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:38,710] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:38,731] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:39,700] {logging_mixin.py:112} INFO - [2023-07-30 12:09:39,700] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=194
+[2023-07-30 12:09:39,702] {scheduler_job.py:153} INFO - Started process (PID=194) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:39,704] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:39,705] {logging_mixin.py:112} INFO - [2023-07-30 12:09:39,705] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:39,719] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:39,739] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:09:40,707] {logging_mixin.py:112} INFO - [2023-07-30 12:09:40,707] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=196
+[2023-07-30 12:09:40,709] {scheduler_job.py:153} INFO - Started process (PID=196) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:40,711] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:40,712] {logging_mixin.py:112} INFO - [2023-07-30 12:09:40,711] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:40,725] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:40,747] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:41,716] {logging_mixin.py:112} INFO - [2023-07-30 12:09:41,716] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=198
+[2023-07-30 12:09:41,719] {scheduler_job.py:153} INFO - Started process (PID=198) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:41,724] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:41,724] {logging_mixin.py:112} INFO - [2023-07-30 12:09:41,724] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:41,739] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:41,764] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:09:42,721] {logging_mixin.py:112} INFO - [2023-07-30 12:09:42,721] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=200
+[2023-07-30 12:09:42,723] {scheduler_job.py:153} INFO - Started process (PID=200) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:42,725] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:42,726] {logging_mixin.py:112} INFO - [2023-07-30 12:09:42,726] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:42,741] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:42,762] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:43,728] {logging_mixin.py:112} INFO - [2023-07-30 12:09:43,728] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=202
+[2023-07-30 12:09:43,730] {scheduler_job.py:153} INFO - Started process (PID=202) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:43,733] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:43,733] {logging_mixin.py:112} INFO - [2023-07-30 12:09:43,733] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:43,746] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:43,770] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:44,736] {logging_mixin.py:112} INFO - [2023-07-30 12:09:44,736] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=204
+[2023-07-30 12:09:44,738] {scheduler_job.py:153} INFO - Started process (PID=204) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:44,741] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:44,742] {logging_mixin.py:112} INFO - [2023-07-30 12:09:44,742] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:44,757] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:44,778] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:45,745] {logging_mixin.py:112} INFO - [2023-07-30 12:09:45,745] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=206
+[2023-07-30 12:09:45,748] {scheduler_job.py:153} INFO - Started process (PID=206) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:45,751] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:45,751] {logging_mixin.py:112} INFO - [2023-07-30 12:09:45,751] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:45,766] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:45,787] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:46,752] {logging_mixin.py:112} INFO - [2023-07-30 12:09:46,752] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=208
+[2023-07-30 12:09:46,754] {scheduler_job.py:153} INFO - Started process (PID=208) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:46,756] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:46,757] {logging_mixin.py:112} INFO - [2023-07-30 12:09:46,757] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:46,772] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:46,796] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:09:47,780] {logging_mixin.py:112} INFO - [2023-07-30 12:09:47,780] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=210
+[2023-07-30 12:09:47,783] {scheduler_job.py:153} INFO - Started process (PID=210) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:47,785] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:47,786] {logging_mixin.py:112} INFO - [2023-07-30 12:09:47,785] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:47,802] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:47,824] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:09:48,795] {logging_mixin.py:112} INFO - [2023-07-30 12:09:48,794] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=212
+[2023-07-30 12:09:48,797] {scheduler_job.py:153} INFO - Started process (PID=212) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:48,799] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:48,799] {logging_mixin.py:112} INFO - [2023-07-30 12:09:48,799] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:48,813] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:48,835] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:49,801] {logging_mixin.py:112} INFO - [2023-07-30 12:09:49,801] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=214
+[2023-07-30 12:09:49,803] {scheduler_job.py:153} INFO - Started process (PID=214) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:49,805] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:49,806] {logging_mixin.py:112} INFO - [2023-07-30 12:09:49,805] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:49,819] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:49,840] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:09:50,807] {logging_mixin.py:112} INFO - [2023-07-30 12:09:50,807] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=216
+[2023-07-30 12:09:50,809] {scheduler_job.py:153} INFO - Started process (PID=216) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:50,811] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:50,811] {logging_mixin.py:112} INFO - [2023-07-30 12:09:50,811] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:50,825] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:50,846] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:09:51,813] {logging_mixin.py:112} INFO - [2023-07-30 12:09:51,813] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=218
+[2023-07-30 12:09:51,815] {scheduler_job.py:153} INFO - Started process (PID=218) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:51,818] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:51,818] {logging_mixin.py:112} INFO - [2023-07-30 12:09:51,818] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:51,832] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:51,854] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:52,823] {logging_mixin.py:112} INFO - [2023-07-30 12:09:52,822] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=220
+[2023-07-30 12:09:52,825] {scheduler_job.py:153} INFO - Started process (PID=220) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:52,827] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:52,828] {logging_mixin.py:112} INFO - [2023-07-30 12:09:52,828] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:52,843] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:52,867] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:09:53,829] {logging_mixin.py:112} INFO - [2023-07-30 12:09:53,829] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=222
+[2023-07-30 12:09:53,831] {scheduler_job.py:153} INFO - Started process (PID=222) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:53,834] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:53,835] {logging_mixin.py:112} INFO - [2023-07-30 12:09:53,834] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:53,848] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:53,869] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:54,837] {logging_mixin.py:112} INFO - [2023-07-30 12:09:54,837] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=224
+[2023-07-30 12:09:54,840] {scheduler_job.py:153} INFO - Started process (PID=224) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:54,842] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:54,843] {logging_mixin.py:112} INFO - [2023-07-30 12:09:54,843] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:54,857] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:54,878] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:09:55,845] {logging_mixin.py:112} INFO - [2023-07-30 12:09:55,845] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=226
+[2023-07-30 12:09:55,847] {scheduler_job.py:153} INFO - Started process (PID=226) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:55,849] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:55,849] {logging_mixin.py:112} INFO - [2023-07-30 12:09:55,849] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:55,863] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:55,883] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.036 seconds
+[2023-07-30 12:09:56,851] {logging_mixin.py:112} INFO - [2023-07-30 12:09:56,850] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=228
+[2023-07-30 12:09:56,853] {scheduler_job.py:153} INFO - Started process (PID=228) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:56,855] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:56,855] {logging_mixin.py:112} INFO - [2023-07-30 12:09:56,855] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:56,869] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:56,891] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:09:57,871] {logging_mixin.py:112} INFO - [2023-07-30 12:09:57,871] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=230
+[2023-07-30 12:09:57,873] {scheduler_job.py:153} INFO - Started process (PID=230) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:57,875] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:57,876] {logging_mixin.py:112} INFO - [2023-07-30 12:09:57,876] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:57,892] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:57,915] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.041 seconds
+[2023-07-30 12:09:58,886] {logging_mixin.py:112} INFO - [2023-07-30 12:09:58,886] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=232
+[2023-07-30 12:09:58,888] {scheduler_job.py:153} INFO - Started process (PID=232) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:58,890] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:58,891] {logging_mixin.py:112} INFO - [2023-07-30 12:09:58,891] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:58,904] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:58,925] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.036 seconds
+[2023-07-30 12:09:59,892] {logging_mixin.py:112} INFO - [2023-07-30 12:09:59,892] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=234
+[2023-07-30 12:09:59,894] {scheduler_job.py:153} INFO - Started process (PID=234) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:59,896] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:09:59,896] {logging_mixin.py:112} INFO - [2023-07-30 12:09:59,896] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:59,910] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:09:59,931] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:00,901] {logging_mixin.py:112} INFO - [2023-07-30 12:10:00,901] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=236
+[2023-07-30 12:10:00,903] {scheduler_job.py:153} INFO - Started process (PID=236) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:00,905] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:00,905] {logging_mixin.py:112} INFO - [2023-07-30 12:10:00,905] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:00,920] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:00,945] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:10:01,908] {logging_mixin.py:112} INFO - [2023-07-30 12:10:01,908] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=238
+[2023-07-30 12:10:01,910] {scheduler_job.py:153} INFO - Started process (PID=238) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:01,912] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:01,913] {logging_mixin.py:112} INFO - [2023-07-30 12:10:01,912] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:01,926] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:01,946] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.036 seconds
+[2023-07-30 12:10:02,913] {logging_mixin.py:112} INFO - [2023-07-30 12:10:02,913] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=240
+[2023-07-30 12:10:02,915] {scheduler_job.py:153} INFO - Started process (PID=240) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:02,918] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:02,918] {logging_mixin.py:112} INFO - [2023-07-30 12:10:02,918] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:02,933] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:02,955] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:03,920] {logging_mixin.py:112} INFO - [2023-07-30 12:10:03,920] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=242
+[2023-07-30 12:10:03,922] {scheduler_job.py:153} INFO - Started process (PID=242) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:03,924] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:03,925] {logging_mixin.py:112} INFO - [2023-07-30 12:10:03,925] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:03,939] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:03,959] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:04,925] {logging_mixin.py:112} INFO - [2023-07-30 12:10:04,925] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=244
+[2023-07-30 12:10:04,927] {scheduler_job.py:153} INFO - Started process (PID=244) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:04,929] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:04,930] {logging_mixin.py:112} INFO - [2023-07-30 12:10:04,930] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:04,943] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:04,964] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:05,932] {logging_mixin.py:112} INFO - [2023-07-30 12:10:05,932] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=246
+[2023-07-30 12:10:05,935] {scheduler_job.py:153} INFO - Started process (PID=246) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:05,937] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:05,937] {logging_mixin.py:112} INFO - [2023-07-30 12:10:05,937] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:05,952] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:05,973] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:06,939] {logging_mixin.py:112} INFO - [2023-07-30 12:10:06,939] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=248
+[2023-07-30 12:10:06,941] {scheduler_job.py:153} INFO - Started process (PID=248) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:06,943] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:06,944] {logging_mixin.py:112} INFO - [2023-07-30 12:10:06,944] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:06,958] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:06,980] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:07,969] {logging_mixin.py:112} INFO - [2023-07-30 12:10:07,969] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=250
+[2023-07-30 12:10:07,971] {scheduler_job.py:153} INFO - Started process (PID=250) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:07,974] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:07,974] {logging_mixin.py:112} INFO - [2023-07-30 12:10:07,974] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:07,991] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:08,016] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.045 seconds
+[2023-07-30 12:10:08,981] {logging_mixin.py:112} INFO - [2023-07-30 12:10:08,981] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=252
+[2023-07-30 12:10:08,983] {scheduler_job.py:153} INFO - Started process (PID=252) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:08,986] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:08,986] {logging_mixin.py:112} INFO - [2023-07-30 12:10:08,986] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:09,000] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:09,021] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:09,990] {logging_mixin.py:112} INFO - [2023-07-30 12:10:09,990] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=254
+[2023-07-30 12:10:09,992] {scheduler_job.py:153} INFO - Started process (PID=254) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:09,995] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:09,995] {logging_mixin.py:112} INFO - [2023-07-30 12:10:09,995] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:10,009] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:10,037] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:10:10,996] {logging_mixin.py:112} INFO - [2023-07-30 12:10:10,996] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=256
+[2023-07-30 12:10:10,999] {scheduler_job.py:153} INFO - Started process (PID=256) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:11,001] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:11,002] {logging_mixin.py:112} INFO - [2023-07-30 12:10:11,001] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:11,015] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:11,043] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:10:12,005] {logging_mixin.py:112} INFO - [2023-07-30 12:10:12,005] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=258
+[2023-07-30 12:10:12,008] {scheduler_job.py:153} INFO - Started process (PID=258) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:12,010] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:12,010] {logging_mixin.py:112} INFO - [2023-07-30 12:10:12,010] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:12,025] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:12,049] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:10:13,012] {logging_mixin.py:112} INFO - [2023-07-30 12:10:13,012] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=260
+[2023-07-30 12:10:13,014] {scheduler_job.py:153} INFO - Started process (PID=260) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:13,016] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:13,017] {logging_mixin.py:112} INFO - [2023-07-30 12:10:13,017] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:13,031] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:13,052] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:14,020] {logging_mixin.py:112} INFO - [2023-07-30 12:10:14,020] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=262
+[2023-07-30 12:10:14,022] {scheduler_job.py:153} INFO - Started process (PID=262) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:14,024] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:14,024] {logging_mixin.py:112} INFO - [2023-07-30 12:10:14,024] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:14,039] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:14,059] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:15,027] {logging_mixin.py:112} INFO - [2023-07-30 12:10:15,026] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=264
+[2023-07-30 12:10:15,029] {scheduler_job.py:153} INFO - Started process (PID=264) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:15,031] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:15,031] {logging_mixin.py:112} INFO - [2023-07-30 12:10:15,031] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:15,046] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:15,068] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:16,034] {logging_mixin.py:112} INFO - [2023-07-30 12:10:16,034] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=266
+[2023-07-30 12:10:16,036] {scheduler_job.py:153} INFO - Started process (PID=266) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:16,038] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:16,039] {logging_mixin.py:112} INFO - [2023-07-30 12:10:16,038] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:16,052] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:16,073] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:17,041] {logging_mixin.py:112} INFO - [2023-07-30 12:10:17,041] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=268
+[2023-07-30 12:10:17,043] {scheduler_job.py:153} INFO - Started process (PID=268) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:17,045] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:17,046] {logging_mixin.py:112} INFO - [2023-07-30 12:10:17,046] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:17,059] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:17,082] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:18,073] {logging_mixin.py:112} INFO - [2023-07-30 12:10:18,072] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=270
+[2023-07-30 12:10:18,075] {scheduler_job.py:153} INFO - Started process (PID=270) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:18,077] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:18,078] {logging_mixin.py:112} INFO - [2023-07-30 12:10:18,078] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:18,093] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:18,115] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:19,081] {logging_mixin.py:112} INFO - [2023-07-30 12:10:19,081] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=272
+[2023-07-30 12:10:19,083] {scheduler_job.py:153} INFO - Started process (PID=272) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:19,085] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:19,086] {logging_mixin.py:112} INFO - [2023-07-30 12:10:19,086] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:19,100] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:19,121] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:20,088] {logging_mixin.py:112} INFO - [2023-07-30 12:10:20,088] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=274
+[2023-07-30 12:10:20,090] {scheduler_job.py:153} INFO - Started process (PID=274) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:20,092] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:20,093] {logging_mixin.py:112} INFO - [2023-07-30 12:10:20,093] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:20,107] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:20,129] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:21,095] {logging_mixin.py:112} INFO - [2023-07-30 12:10:21,095] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=276
+[2023-07-30 12:10:21,097] {scheduler_job.py:153} INFO - Started process (PID=276) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:21,099] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:21,100] {logging_mixin.py:112} INFO - [2023-07-30 12:10:21,100] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:21,113] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:21,136] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:22,104] {logging_mixin.py:112} INFO - [2023-07-30 12:10:22,104] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=278
+[2023-07-30 12:10:22,107] {scheduler_job.py:153} INFO - Started process (PID=278) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:22,109] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:22,110] {logging_mixin.py:112} INFO - [2023-07-30 12:10:22,109] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:22,125] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:22,149] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.043 seconds
+[2023-07-30 12:10:23,111] {logging_mixin.py:112} INFO - [2023-07-30 12:10:23,111] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=280
+[2023-07-30 12:10:23,113] {scheduler_job.py:153} INFO - Started process (PID=280) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:23,115] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:23,115] {logging_mixin.py:112} INFO - [2023-07-30 12:10:23,115] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:23,129] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:23,148] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.035 seconds
+[2023-07-30 12:10:24,118] {logging_mixin.py:112} INFO - [2023-07-30 12:10:24,118] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=282
+[2023-07-30 12:10:24,120] {scheduler_job.py:153} INFO - Started process (PID=282) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:24,122] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:24,122] {logging_mixin.py:112} INFO - [2023-07-30 12:10:24,122] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:24,136] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:24,158] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:25,126] {logging_mixin.py:112} INFO - [2023-07-30 12:10:25,125] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=284
+[2023-07-30 12:10:25,128] {scheduler_job.py:153} INFO - Started process (PID=284) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:25,130] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:25,130] {logging_mixin.py:112} INFO - [2023-07-30 12:10:25,130] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:25,145] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:25,167] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:26,132] {logging_mixin.py:112} INFO - [2023-07-30 12:10:26,132] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=286
+[2023-07-30 12:10:26,135] {scheduler_job.py:153} INFO - Started process (PID=286) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:26,137] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:26,137] {logging_mixin.py:112} INFO - [2023-07-30 12:10:26,137] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:26,151] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:26,172] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:27,141] {logging_mixin.py:112} INFO - [2023-07-30 12:10:27,141] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=288
+[2023-07-30 12:10:27,143] {scheduler_job.py:153} INFO - Started process (PID=288) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:27,145] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:27,145] {logging_mixin.py:112} INFO - [2023-07-30 12:10:27,145] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:27,159] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:27,180] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:28,180] {logging_mixin.py:112} INFO - [2023-07-30 12:10:28,180] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=290
+[2023-07-30 12:10:28,182] {scheduler_job.py:153} INFO - Started process (PID=290) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:28,185] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:28,185] {logging_mixin.py:112} INFO - [2023-07-30 12:10:28,185] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:28,201] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:28,222] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:29,192] {logging_mixin.py:112} INFO - [2023-07-30 12:10:29,192] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=292
+[2023-07-30 12:10:29,194] {scheduler_job.py:153} INFO - Started process (PID=292) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:29,196] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:29,196] {logging_mixin.py:112} INFO - [2023-07-30 12:10:29,196] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:29,210] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:29,231] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.037 seconds
+[2023-07-30 12:10:30,198] {logging_mixin.py:112} INFO - [2023-07-30 12:10:30,198] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=294
+[2023-07-30 12:10:30,200] {scheduler_job.py:153} INFO - Started process (PID=294) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:30,202] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:30,203] {logging_mixin.py:112} INFO - [2023-07-30 12:10:30,203] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:30,217] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:30,239] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:31,206] {logging_mixin.py:112} INFO - [2023-07-30 12:10:31,206] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=296
+[2023-07-30 12:10:31,208] {scheduler_job.py:153} INFO - Started process (PID=296) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:31,210] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:31,210] {logging_mixin.py:112} INFO - [2023-07-30 12:10:31,210] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:31,223] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:31,246] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
+[2023-07-30 12:10:32,212] {logging_mixin.py:112} INFO - [2023-07-30 12:10:32,212] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=298
+[2023-07-30 12:10:32,214] {scheduler_job.py:153} INFO - Started process (PID=298) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:32,216] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:32,217] {logging_mixin.py:112} INFO - [2023-07-30 12:10:32,217] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:32,231] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:32,253] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:33,221] {logging_mixin.py:112} INFO - [2023-07-30 12:10:33,221] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=300
+[2023-07-30 12:10:33,224] {scheduler_job.py:153} INFO - Started process (PID=300) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:33,227] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:33,229] {logging_mixin.py:112} INFO - [2023-07-30 12:10:33,228] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:33,246] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:33,269] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.045 seconds
+[2023-07-30 12:10:34,226] {logging_mixin.py:112} INFO - [2023-07-30 12:10:34,226] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=302
+[2023-07-30 12:10:34,229] {scheduler_job.py:153} INFO - Started process (PID=302) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:34,231] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:34,231] {logging_mixin.py:112} INFO - [2023-07-30 12:10:34,231] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:34,245] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:34,268] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.039 seconds
+[2023-07-30 12:10:35,241] {logging_mixin.py:112} INFO - [2023-07-30 12:10:35,240] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=304
+[2023-07-30 12:10:35,244] {scheduler_job.py:153} INFO - Started process (PID=304) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:35,247] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:35,248] {logging_mixin.py:112} INFO - [2023-07-30 12:10:35,247] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:35,278] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:35,327] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.083 seconds
+[2023-07-30 12:10:36,251] {logging_mixin.py:112} INFO - [2023-07-30 12:10:36,251] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=306
+[2023-07-30 12:10:36,255] {scheduler_job.py:153} INFO - Started process (PID=306) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:36,257] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:36,257] {logging_mixin.py:112} INFO - [2023-07-30 12:10:36,257] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:36,276] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:36,303] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.049 seconds
+[2023-07-30 12:10:37,254] {logging_mixin.py:112} INFO - [2023-07-30 12:10:37,254] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=308
+[2023-07-30 12:10:37,257] {scheduler_job.py:153} INFO - Started process (PID=308) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:37,260] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:37,260] {logging_mixin.py:112} INFO - [2023-07-30 12:10:37,260] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:37,276] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:37,301] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:10:38,299] {logging_mixin.py:112} INFO - [2023-07-30 12:10:38,299] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=310
+[2023-07-30 12:10:38,302] {scheduler_job.py:153} INFO - Started process (PID=310) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:38,305] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:38,306] {logging_mixin.py:112} INFO - [2023-07-30 12:10:38,306] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:38,318] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:38,344] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:10:39,312] {logging_mixin.py:112} INFO - [2023-07-30 12:10:39,312] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=312
+[2023-07-30 12:10:39,315] {scheduler_job.py:153} INFO - Started process (PID=312) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:39,317] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:39,317] {logging_mixin.py:112} INFO - [2023-07-30 12:10:39,317] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:39,330] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:39,360] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.046 seconds
+[2023-07-30 12:10:40,326] {logging_mixin.py:112} INFO - [2023-07-30 12:10:40,326] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=314
+[2023-07-30 12:10:40,328] {scheduler_job.py:153} INFO - Started process (PID=314) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:40,331] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:40,331] {logging_mixin.py:112} INFO - [2023-07-30 12:10:40,331] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:40,351] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:40,373] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.045 seconds
+[2023-07-30 12:10:41,331] {logging_mixin.py:112} INFO - [2023-07-30 12:10:41,331] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=316
+[2023-07-30 12:10:41,334] {scheduler_job.py:153} INFO - Started process (PID=316) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:41,336] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:41,337] {logging_mixin.py:112} INFO - [2023-07-30 12:10:41,337] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:41,353] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:41,376] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:10:42,339] {logging_mixin.py:112} INFO - [2023-07-30 12:10:42,339] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=318
+[2023-07-30 12:10:42,341] {scheduler_job.py:153} INFO - Started process (PID=318) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:42,343] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:42,344] {logging_mixin.py:112} INFO - [2023-07-30 12:10:42,344] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:42,361] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:42,383] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.042 seconds
+[2023-07-30 12:10:43,345] {logging_mixin.py:112} INFO - [2023-07-30 12:10:43,345] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=320
+[2023-07-30 12:10:43,347] {scheduler_job.py:153} INFO - Started process (PID=320) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:43,349] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:43,350] {logging_mixin.py:112} INFO - [2023-07-30 12:10:43,350] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:43,365] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:43,391] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.044 seconds
+[2023-07-30 12:10:44,355] {logging_mixin.py:112} INFO - [2023-07-30 12:10:44,354] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=322
+[2023-07-30 12:10:44,357] {scheduler_job.py:153} INFO - Started process (PID=322) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:44,359] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:44,360] {logging_mixin.py:112} INFO - [2023-07-30 12:10:44,360] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:44,375] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:44,397] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:45,362] {logging_mixin.py:112} INFO - [2023-07-30 12:10:45,361] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=324
+[2023-07-30 12:10:45,364] {scheduler_job.py:153} INFO - Started process (PID=324) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:45,365] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:45,366] {logging_mixin.py:112} INFO - [2023-07-30 12:10:45,366] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:45,380] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:45,404] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:46,368] {logging_mixin.py:112} INFO - [2023-07-30 12:10:46,368] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=326
+[2023-07-30 12:10:46,371] {scheduler_job.py:153} INFO - Started process (PID=326) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:46,373] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:46,373] {logging_mixin.py:112} INFO - [2023-07-30 12:10:46,373] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:46,387] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:46,411] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.040 seconds
+[2023-07-30 12:10:47,375] {logging_mixin.py:112} INFO - [2023-07-30 12:10:47,375] {settings.py:253} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=328
+[2023-07-30 12:10:47,377] {scheduler_job.py:153} INFO - Started process (PID=328) to work on /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:47,379] {scheduler_job.py:1560} INFO - Processing file /usr/local/airflow/dags/data_dag.py for tasks to queue
+[2023-07-30 12:10:47,380] {logging_mixin.py:112} INFO - [2023-07-30 12:10:47,380] {dagbag.py:403} INFO - Filling up the DagBag from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:47,394] {scheduler_job.py:1572} INFO - DAG(s) dict_keys(['data_dag']) retrieved from /usr/local/airflow/dags/data_dag.py
+[2023-07-30 12:10:47,416] {scheduler_job.py:161} INFO - Processing /usr/local/airflow/dags/data_dag.py took 0.038 seconds
