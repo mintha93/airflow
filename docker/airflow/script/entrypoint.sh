@@ -27,7 +27,7 @@ export \
   AIRFLOW__CORE__SQL_ALCHEMY_CONN \
 
 
-# Load DAGs exemples (default: Yes)
+# Load DAGs examples (default: Yes)
 if [[ -z "$AIRFLOW__CORE__LOAD_EXAMPLES" && "${LOAD_EX:=n}" == n ]]
 then
   AIRFLOW__CORE__LOAD_EXAMPLES=False
@@ -71,8 +71,7 @@ fi
 
 case "$1" in
   webserver)
-    airflow db init
-    airflow users create -e "admin@airflow.com" -f "airflow" -l "airflow" -p "airflow" -r "Admin" -u "airflow"
+    airflow initdb
     if [ "$AIRFLOW__CORE__EXECUTOR" = "LocalExecutor" ] || [ "$AIRFLOW__CORE__EXECUTOR" = "SequentialExecutor" ]; then
       # With the "Local" and "Sequential" executors it should all run in one container.
       airflow scheduler &
@@ -80,7 +79,7 @@ case "$1" in
     exec airflow webserver
     ;;
   worker|scheduler)
-    # To give the webserver time to run initdb.
+    # Give the webserver time to run initdb.
     sleep 10
     exec airflow "$@"
     ;;

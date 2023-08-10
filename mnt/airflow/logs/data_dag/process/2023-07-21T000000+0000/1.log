@@ -1,0 +1,19 @@
+[2023-07-31 12:52:42,202] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: data_dag.process 2023-07-21T00:00:00+00:00 [queued]>
+[2023-07-31 12:52:42,219] {taskinstance.py:655} INFO - Dependencies all met for <TaskInstance: data_dag.process 2023-07-21T00:00:00+00:00 [queued]>
+[2023-07-31 12:52:42,220] {taskinstance.py:866} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 12:52:42,220] {taskinstance.py:867} INFO - Starting attempt 1 of 1
+[2023-07-31 12:52:42,220] {taskinstance.py:868} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 12:52:42,235] {taskinstance.py:887} INFO - Executing <Task(BashOperator): process> on 2023-07-21T00:00:00+00:00
+[2023-07-31 12:52:42,240] {standard_task_runner.py:53} INFO - Started process 81 to run task
+[2023-07-31 12:52:42,291] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: data_dag.process 2023-07-21T00:00:00+00:00 [running]> 66e47f8f7cf9
+[2023-07-31 12:52:42,312] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2023-07-31 12:52:42,313] {bash_operator.py:105} INFO - Temporary script location: /tmp/airflowtmpcjpd2vbc/processywe34tac
+[2023-07-31 12:52:42,313] {bash_operator.py:115} INFO - Running command: echo 'processing'
+[2023-07-31 12:52:42,321] {bash_operator.py:122} INFO - Output:
+[2023-07-31 12:52:42,325] {bash_operator.py:126} INFO - processing
+[2023-07-31 12:52:42,325] {bash_operator.py:130} INFO - Command exited with return code 0
+[2023-07-31 12:52:42,336] {taskinstance.py:1048} INFO - Marking task as SUCCESS.dag_id=data_dag, task_id=process, execution_date=20230721T000000, start_date=20230731T125242, end_date=20230731T125242
+[2023-07-31 12:52:52,185] {logging_mixin.py:112} INFO - [2023-07-31 12:52:52,184] {local_task_job.py:103} INFO - Task exited with return code 0
