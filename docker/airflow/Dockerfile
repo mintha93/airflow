@@ -1,11 +1,13 @@
 # Base Image
-FROM python:3.7-slim-buster
+FROM python:3.7-slim-bullseye
 LABEL maintainer="MarcLamberti"
 
 # Arguments that can be set with docker build
 ARG AIRFLOW_VERSION=2.4.2
-ARG AIRFLOW_HOME=/opt/airflow
-
+ARG AIRFLOW_HOME=/usr/local/airflow
+# Never prompts the user for choices on installation/configuration of packages
+ENV DEBIAN_FRONTEND noninteractive
+ENV TERM linux
 # Export the environment variable AIRFLOW_HOME where airflow will be installed
 ENV AIRFLOW_HOME=${AIRFLOW_HOME}
 
@@ -19,6 +21,8 @@ ENV LC_MESSAGES en_US.UTF-8
 COPY ./requirements-python3.7.txt /requirements-python3.7.txt
 
 # Install dependencies and tools
+
+
 RUN apt-get update -y && \
     apt-get upgrade -yqq && \
     apt-get install -yqq --no-install-recommends \
@@ -47,6 +51,8 @@ RUN apt-get update -y && \
 # Upgrade pip
 # Create airflow user 
 # Install apache airflow with subpackages
+RUN pip install psycopg2 
+
 RUN pip install --upgrade "pip==20.2.4" && \
     useradd -ms /bin/bash -d ${AIRFLOW_HOME} airflow && \
     pip install apache-airflow==${AIRFLOW_VERSION} --constraint /requirements-python3.7.txt && \
@@ -54,19 +60,17 @@ RUN pip install --upgrade "pip==20.2.4" && \
     pip install apache-airflow-providers-apache-hive==2.0.2 && \
     pip install apache-airflow-providers-apache-spark==2.0.1 && \
     pip install apache-airflow-providers-slack==4.0.1 && \
-    pip install apache-airflow-providers-http==2.0.1
-
+    pip install apache-airflow-providers-http==2.0.1 && \
+    pip install 'redis==3.2'
 # Copy the airflow.cfg file (config)
 #COPY ./config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
 
 # Set the owner of the files in AIRFLOW_HOME to the user airflow
+COPY script/entrypoint.sh /entrypoint.sh
+#COPY config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
+
 RUN chown -R airflow: ${AIRFLOW_HOME}
 
-# Copy the entrypoint.sh from host to container (at path AIRFLOW_HOME)
-COPY ./start-airflow.sh ./start-airflow.sh
-
-# Set the entrypoint.sh file to be executable
-RUN chmod +x ./start-airflow.sh
 #COPY config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
 # Set the username to use
 USER airflow
@@ -75,9 +79,10 @@ USER airflow
 RUN mkdir -p ${AIRFLOW_HOME}/dags
 
 # Expose ports (just to indicate that this container needs to map port)
-EXPOSE 8080
+EXPOSE 8080 5555 8793
 
 # Execute start-airflow.sh
-CMD [ "./start-airflow.sh" ]
-
-    
+USER airflow
+WORKDIR ${AIRFLOW_HOME}
+ENTRYPOINT ["/entrypoint.sh"]
+CMD ["webserver"] # set default arg for entrypoint    
