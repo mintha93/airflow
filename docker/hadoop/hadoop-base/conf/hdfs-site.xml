@@ -27,11 +27,11 @@
     </property>
     <property>
         <name>dfs.namenode.name.dir</name>
-        <value>file:/hadoop/dfs/name</value>
+        <value>file:/hadoop/hdfs/name</value>
     </property>
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:/hadoop/dfs/data</value>
+        <value>file:/hadoop/hdfs/data</value>
     </property>
     <property>
         <name>dfs.namenode.datanode.registration.ip-hostname-check</name>

@@ -1,22 +1,13 @@
-# VERSION 1.10.7
-# AUTHOR: Matthieu "Puckel_" Roisil
-# DESCRIPTION: Basic Airflow container
-# BUILD: docker build --rm -t puckel/docker-airflow .
-# SOURCE: https://github.com/puckel/docker-airflow
-
+# Base Image
 FROM python:3.7-slim-buster
-LABEL maintainer="Puckel_"
+LABEL maintainer="MarcLamberti"
 
-# Never prompt the user for choices on installation/configuration of packages
-ENV DEBIAN_FRONTEND noninteractive
-ENV TERM linux
+# Arguments that can be set with docker build
+ARG AIRFLOW_VERSION=2.4.2
+ARG AIRFLOW_HOME=/opt/airflow
 
-# Airflow
-ARG AIRFLOW_VERSION=1.10.12
-ARG AIRFLOW_USER_HOME=/usr/local/airflow
-ARG AIRFLOW_DEPS=""
-ARG PYTHON_DEPS=""
-ENV AIRFLOW_HOME=${AIRFLOW_USER_HOME}
+# Export the environment variable AIRFLOW_HOME where airflow will be installed
+ENV AIRFLOW_HOME=${AIRFLOW_HOME}
 
 # Define en_US.
 ENV LANGUAGE en_US.UTF-8
@@ -27,64 +18,66 @@ ENV LC_MESSAGES en_US.UTF-8
 
 COPY ./requirements-python3.7.txt /requirements-python3.7.txt
 
-# Disable noisy "Handling signal" log messages:
-# ENV GUNICORN_CMD_ARGS --log-level WARNING
+# Install dependencies and tools
+RUN apt-get update -y && \
+    apt-get upgrade -yqq && \
+    apt-get install -yqq --no-install-recommends \
+    python3-dev \
+    wget \
+    libczmq-dev \
+    curl \
+    libssl-dev \
+    git \
+    inetutils-telnet \
+    bind9utils freetds-dev \
+    libkrb5-dev \
+    libsasl2-dev \
+    libffi-dev libpq-dev \
+    freetds-bin build-essential \
+    default-libmysqlclient-dev \
+    apt-utils \
+    rsync \
+    zip \
+    unzip \
+    gcc \
+    vim \
+    netcat \
+    && apt-get autoremove -yqq --purge && apt-get clean
 
-RUN set -ex \
-    && buildDeps=' \
-        freetds-dev \
-        libkrb5-dev \
-        libsasl2-dev \
-        libssl-dev \
-        libffi-dev \
-        libpq-dev \
-        git \
-    ' \
-    && apt-get update -yqq \
-    && apt-get upgrade -yqq \
-    && apt-get install -yqq --no-install-recommends \
-        $buildDeps \
-        freetds-bin \
-        build-essential \
-        default-libmysqlclient-dev \
-        apt-utils \
-        curl \
-        vim \
-        rsync \
-        netcat \
-        locales \
-    && sed -i 's/^# en_US.UTF-8 UTF-8$/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
-    && locale-gen \
-    && update-locale LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 \
-    && useradd -ms /bin/bash -d ${AIRFLOW_USER_HOME} airflow \
-    && pip install --upgrade "pip==20.2.4" \
-    && pip install -U pip setuptools wheel \
-    && pip install pytz \
-    && pip install pyOpenSSL \
-    && pip install ndg-httpsclient \
-    && pip install pyasn1 \
-    && pip install apache-airflow[s3,crypto,celery,postgres,mysql,elasticsearch,statsd,ssh${AIRFLOW_DEPS:+,}${AIRFLOW_DEPS}]==${AIRFLOW_VERSION} --constraint /requirements-python3.7.txt \
-    && pip install 'redis==3.2' \
-    && if [ -n "${PYTHON_DEPS}" ]; then pip install ${PYTHON_DEPS}; fi \
-    && apt-get purge --auto-remove -yqq $buildDeps \
-    && apt-get autoremove -yqq --purge \
-    && apt-get clean \
-    && rm -rf \
-        /var/lib/apt/lists/* \
-        /tmp/* \
-        /var/tmp/* \
-        /usr/share/man \
-        /usr/share/doc \
-        /usr/share/doc-base
+# Upgrade pip
+# Create airflow user 
+# Install apache airflow with subpackages
+RUN pip install --upgrade "pip==20.2.4" && \
+    useradd -ms /bin/bash -d ${AIRFLOW_HOME} airflow && \
+    pip install apache-airflow==${AIRFLOW_VERSION} --constraint /requirements-python3.7.txt && \
+    pip install apache-airflow-providers-apache-hdfs==2.1.0 && \
+    pip install apache-airflow-providers-apache-hive==2.0.2 && \
+    pip install apache-airflow-providers-apache-spark==2.0.1 && \
+    pip install apache-airflow-providers-slack==4.0.1 && \
+    pip install apache-airflow-providers-http==2.0.1
 
-COPY script/entrypoint.sh /entrypoint.sh
-COPY config/airflow.cfg ${AIRFLOW_USER_HOME}/airflow.cfg
+# Copy the airflow.cfg file (config)
+#COPY ./config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
 
-RUN chown -R airflow: ${AIRFLOW_USER_HOME}
+# Set the owner of the files in AIRFLOW_HOME to the user airflow
+RUN chown -R airflow: ${AIRFLOW_HOME}
 
-EXPOSE 8080 5555 8793
+# Copy the entrypoint.sh from host to container (at path AIRFLOW_HOME)
+COPY ./start-airflow.sh ./start-airflow.sh
 
+# Set the entrypoint.sh file to be executable
+RUN chmod +x ./start-airflow.sh
+#COPY config/airflow.cfg ${AIRFLOW_HOME}/airflow.cfg
+# Set the username to use
 USER airflow
-WORKDIR ${AIRFLOW_USER_HOME}
-ENTRYPOINT ["/entrypoint.sh"]
-CMD ["webserver"]
+
+# Create the folder dags inside $AIRFLOW_HOME
+RUN mkdir -p ${AIRFLOW_HOME}/dags
+
+# Expose ports (just to indicate that this container needs to map port)
+EXPOSE 8080
+
+# Execute start-airflow.sh
+CMD [ "./start-airflow.sh" ]
+
+    
