@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./stop.sh
-./start.sh
+docker-compose -f docker-compose-CeleryExecutor.yml down
+docker-compose -f docker-compose-CeleryExecutor.yml up -d

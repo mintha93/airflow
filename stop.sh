@@ -1,4 +1,3 @@
 #!/bin/bash
 
-# Stop all the containers at once
-docker-compose down
+docker-compose -f docker-compose-CeleryExecutor.yml down

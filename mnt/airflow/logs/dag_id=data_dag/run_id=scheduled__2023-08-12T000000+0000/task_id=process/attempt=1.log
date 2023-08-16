@@ -1,0 +1,31 @@
+[2023-08-14T06:09:57.589+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: data_dag.process scheduled__2023-08-12T00:00:00+00:00 [queued]>
+[2023-08-14T06:09:57.602+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: data_dag.process scheduled__2023-08-12T00:00:00+00:00 [queued]>
+[2023-08-14T06:09:57.602+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-14T06:09:57.603+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 1
+[2023-08-14T06:09:57.603+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-14T06:09:57.621+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): process> on 2023-08-12 00:00:00+00:00
+[2023-08-14T06:09:57.626+0000] {standard_task_runner.py:55} INFO - Started process 2294 to run task
+[2023-08-14T06:09:57.630+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data_dag', 'process', 'scheduled__2023-08-12T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/data_dag.py', '--cfg-path', '/tmp/tmpto6a30km']
+[2023-08-14T06:09:57.631+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask process
+[2023-08-14T06:09:57.647+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/settings.py:400: DeprecationWarning: The sql_engine_encoding option in [core] has been moved to the sql_engine_encoding option in [database] - the old setting has been used, but please update your config.
+  engine_args["encoding"] = conf.get("database", "SQL_ENGINE_ENCODING", fallback="utf-8")
+
+[2023-08-14T06:09:57.705+0000] {task_command.py:388} INFO - Running <TaskInstance: data_dag.process scheduled__2023-08-12T00:00:00+00:00 [running]> on host 7dfb041806a2
+[2023-08-14T06:09:57.790+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_dag
+AIRFLOW_CTX_TASK_ID=process
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-12T00:00:00+00:00
+[2023-08-14T06:09:57.791+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-14T06:09:57.792+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', "echo 'processing'"]
+[2023-08-14T06:09:57.802+0000] {subprocess.py:86} INFO - Output:
+[2023-08-14T06:09:57.803+0000] {subprocess.py:93} INFO - processing
+[2023-08-14T06:09:57.804+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-14T06:09:57.831+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=data_dag, task_id=process, execution_date=20230812T000000, start_date=20230814T060957, end_date=20230814T060957
+[2023-08-14T06:09:57.883+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-08-14T06:09:57.915+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

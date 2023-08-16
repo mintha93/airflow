@@ -1,0 +1,35 @@
+[2023-08-16T09:58:34.696+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.saving_rates manual__2023-08-16T09:58:28.100189+00:00 [queued]>
+[2023-08-16T09:58:34.708+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: forex_data_pipeline.saving_rates manual__2023-08-16T09:58:28.100189+00:00 [queued]>
+[2023-08-16T09:58:34.708+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T09:58:34.709+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 2
+[2023-08-16T09:58:34.709+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-16T09:58:34.723+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): saving_rates> on 2023-08-16 09:58:28.100189+00:00
+[2023-08-16T09:58:34.728+0000] {standard_task_runner.py:55} INFO - Started process 2114 to run task
+[2023-08-16T09:58:34.731+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'forex_data_pipeline', 'saving_rates', 'manual__2023-08-16T09:58:28.100189+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/forex_data_pipeline.py', '--cfg-path', '/tmp/tmpjwt56rog']
+[2023-08-16T09:58:34.732+0000] {standard_task_runner.py:83} INFO - Job 96: Subtask saving_rates
+[2023-08-16T09:58:34.805+0000] {task_command.py:388} INFO - Running <TaskInstance: forex_data_pipeline.saving_rates manual__2023-08-16T09:58:28.100189+00:00 [running]> on host 6823fccb1f19
+[2023-08-16T09:58:34.876+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@localhost.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=forex_data_pipeline
+AIRFLOW_CTX_TASK_ID=saving_rates
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-16T09:58:28.100189+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-16T09:58:28.100189+00:00
+[2023-08-16T09:58:34.877+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-16T09:58:34.878+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n            hdfs dfs -mkdir -p /forex &&             hdfs dfs -put -f /usr/local/***/dags/files/forex_rates.json /forex\n            ']
+[2023-08-16T09:58:34.888+0000] {subprocess.py:86} INFO - Output:
+[2023-08-16T09:58:34.890+0000] {subprocess.py:93} INFO - /bin/bash: line 2: hdfs: command not found
+[2023-08-16T09:58:34.890+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2023-08-16T09:58:34.901+0000] {taskinstance.py:1768} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2023-08-16T09:58:34.905+0000] {taskinstance.py:1323} INFO - Marking task as UP_FOR_RETRY. dag_id=forex_data_pipeline, task_id=saving_rates, execution_date=20230816T095828, start_date=20230816T095834, end_date=20230816T095834
+[2023-08-16T09:58:34.918+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 96 for task saving_rates (Bash command failed. The command returned a non-zero exit code 127.; 2114)
+[2023-08-16T09:58:34.943+0000] {local_task_job.py:208} INFO - Task exited with return code 1
+[2023-08-16T09:58:34.964+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
